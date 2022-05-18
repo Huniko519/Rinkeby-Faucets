@@ -1,0 +1,185 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.logo {
+  margin: 0 64px;
+}
+
+.App-section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 64px;
+}
+
+.App-container-Description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Container-DescTitle {
+  font-size: 40px;
+  line-height: 56px;
+  margin: 8px 0px 32px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: rgb(26, 43, 107);
+}
+
+.Container-DescContent {
+  margin-top: 16px;
+  margin: 24px 0px 0px;
+  font-family: "circular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(61, 69, 86);
+}
+
+.App-container-Options {
+  display: grid;
+  grid-gap: 10px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #e7e8ea;
+  width: 100%;
+  margin: 32px;
+  padding: 24px;
+}
+
+.Options-Text {
+  margin: 0px 0px 8px;
+  width: 100%;
+  color: #1a2b6b;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.Container-Options-Network {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.Options-Network-Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Container-Options-RequestAmount {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.Container-Options-Request {
+  border: 1px solid #e7e8ea;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  padding: 24px 20px;
+  display: flex;
+  grid-gap: 5px;
+}
+
+.Container-Options-Request:active {
+  border: 1px solid #a0b3f2;
+  background-color: #f5f7fd;
+}
+
+.Button-Container {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}
+
+.Container-Options-SendBtn {
+  margin: 24px 16px 0px 0px;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid rgb(55, 91, 210);
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgb(55, 91, 210);
+  color: rgb(255, 255, 255);
+  padding: 8px 24px;
+  border-radius: 4px;
+}
+
+.Container-Options-SendBtn:hover {
+  background-color: rgb(8, 33, 114);
+}
+
+.Container-Options-SendBtn:active {
+  background-color: rgb(8, 33, 114);
+  outline-offset: 2px;
+}
+
+input.account-address {
+  font-size: 14px;
+  border: 1px solid #e7e8ea;
+  width: 100%;
+  color: rgb(12, 22, 44);
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  display: block;
+  padding: 8px 16px;
+  background-position: left 8px top 50%;
+  line-height: 20px;
+  border-radius: 4px;
+  box-shadow: rgb(12 22 44 / 32%) 0px 8px 24px -16px;
+}
+
+input.account-address:hover {
+  border: 1px solid #858c9b;
+}
+
+.Container-Options-Chainlink {
+  margin: 8px 0px 0px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(109, 115, 128);
+  font-weight: 400;
+  padding: 24px 0 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  font-size: 14px;
+  color: #212529;
+}
